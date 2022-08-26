@@ -1,0 +1,66 @@
+import {StyleSheet} from 'react-native';
+import {FONTS} from '../screen/assets';
+
+export default StyleSheet.create({
+  MainContainer: {backgroundColor: '#fff', flex: 1},
+  CompanyLogo: {width: 226, height: 64, marginTop: 72, marginBottom: 40},
+  companyImage: {alignSelf: 'center'},
+  MainHeader: {
+    ...FONTS.largeTitle,
+    fontWeight: '700',
+    fontSize: 28,
+    color: '#000',
+    marginLeft: 45,
+    marginBottom: 39,
+  },
+  FirstSubContainer: {
+    width: '80%',
+    height: 243,
+    borderWidth: 1,
+    borderColor: '#C6C6C6',
+    alignSelf: 'center',
+    marginTop: 5,
+    borderRadius: 10,
+    padding: 10,
+  },
+  Box: {
+    width: '100%',
+    height: 36,
+    borderColor: '#C6C6C6',
+    marginTop: 10,
+    alignSelf: 'center',
+  },
+  DropdownBox: {
+    width: 314,
+    height: 36,
+    borderColor: '#C6C6C6',
+    marginTop: 10,
+    marginLeft: 5,
+  },
+  SecondSubContainer: {
+    width: '80%',
+    height: 260,
+    borderWidth: 1,
+    borderColor: '#C6C6C6',
+    alignSelf: 'center',
+    marginTop: 11,
+    borderRadius: 10,
+    padding: 10,
+  },
+  CreateNewShopBtn: {
+    width: '80%',
+    height: 44,
+    backgroundColor: '#4A96C6',
+    borderRadius: 4,
+    marginTop: 53,
+    alignSelf: 'center',
+    marginBottom: 25,
+  },
+  BtnText: {
+    fontSize: 16,
+    fontWeight: '400',
+    color: '#fff',
+    marginTop: 10,
+    textAlign: 'center',
+  },
+});
